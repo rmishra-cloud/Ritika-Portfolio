@@ -1,25 +1,161 @@
+/* Basic styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
   line-height: 1.6;
-  padding: 20px;
-  background-color: #f4f4f4;
 }
 
-header, footer {
+/* Header styles */
+header {
+  background-color: #4CAF50; /* A soft green */
+  color: white;
+  padding: 20px 0;
   text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* About section */
+#about {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#about h2 {
+  color: #4CAF50;
+  font-size: 2rem;
+}
+
+#about p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.8;
+}
+
+/* Skills section */
+#skills {
+  background-color: #e0f7fa;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#skills h2 {
+  color: #00796b; /* Teal color */
+  font-size: 2rem;
+}
+
+#skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#skills ul li {
+  font-size: 1.2rem;
   padding: 10px;
+  background-color: #ffffff;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Experience section */
+#experience {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#experience h2 {
+  color: #ff9800; /* Orange */
+  font-size: 2rem;
+}
+
+#experience h3 {
+  color: #333;
+  margin: 20px 0;
+  font-size: 1.4rem;
+}
+
+#experience p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.8;
+}
+
+/* Projects section */
+#projects {
+  background-color: #f1f8e9;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#projects h2 {
+  color: #8bc34a; /* Light green */
+  font-size: 2rem;
+}
+
+#projects a {
+  color: #00796b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#projects a:hover {
+  color: #004d40;
+}
+
+/* Contact section */
+#contact {
+  background-color: #f44336; /* Red */
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2rem;
+}
+
+#contact p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+#contact a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#contact a:hover {
+  color: #ffcccb;
+}
+
+/* Footer styles */
+footer {
   background-color: #333;
   color: white;
+  text-align: center;
+  padding: 10px 0;
 }
 
-section {
-  margin: 20px 0;
-}
-
-h1, h2 {
-  color: #333;
-}
-
-a {
-  color: #0066cc;
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
 }
